@@ -18,7 +18,7 @@ dependencies {
   compileOnly deps.autoservice
 
   implementation("io.opentelemetry:opentelemetry-exporter-jaeger-thrift:${versions.opentelemetry}")
-  implementation("io.jaegertracing:jaeger-client:1.5.0")
+  implementation("io.jaegertracing:jaeger-client:1.6.0")
 
   compileOnly("io.micrometer:micrometer-core:${versions.micrometer}")
   implementation("io.micrometer:micrometer-registry-signalfx:${versions.micrometer}") {
